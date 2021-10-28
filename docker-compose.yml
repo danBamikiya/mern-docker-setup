@@ -21,7 +21,6 @@ services:
   express:
     build:
       context: backend
-      target: server-dev
     ports:
       - 4040:4040
     networks:
