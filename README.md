@@ -1,4 +1,27 @@
-<h1 id="header">HOW TO RUN</h1>
+<h1 id="header">HOW TO USE</h1>
+
+*This setup has Docker BuildX enabled that means faster builds (using parallel builds) than the default and better caching of your builds!*
+
+Easy!
+
+#### Clone the app
+
+```
+git clone https://github.com/danBamikiya/mern-docker-setup.git
+```
+
+#### Navigate to the cloned directory
+
+```
+cd mern-docker-setup
+```
+
+1. Just put the contents of your react folder into the `frontend` folder.
+2. Put the content of your express folder into the `backend` folder.
+3. Then replace the [database name](https://github.com/danBamikiya/mern-docker-setup/blob/b26f7ef819c1e448f99af6c29827329dbf441cba/docker-compose.yml#L39) with your preferred name.
+4. Then use the MongoDB connection URI in your backend as `mongodb://mongo:27017/databasename`
+
+<h1>HOW TO RUN</h1>
 
 <h3> 🌱 Prerequisites </h3>
 
@@ -13,18 +36,6 @@ You can either work with this project either in Windows, Linux or MacOS. I'll di
 | _action to run_ | _command for windows_ | _command for linux/macOS_ |
 
 ## 🏁 Getting started
-
-#### Clone the app
-
-```
-git clone https://github.com/danBamikiya/mern-docker-setup.git
-```
-
-#### Navigate to the cloned directory
-
-```
-cd mern-docker-setup
-```
 
 #### Commands
 
